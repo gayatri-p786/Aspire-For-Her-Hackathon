@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+body{
+    background-color: #f3f3f3;
+    color: black;
+    font-family: "Libre Baskerville", serif;
+   }
+   .navbar-custom{
+    /* background: linear-gradient(#b43c88, #844797); */
+    background-color: #170f22 !important;
+   }
+   #search-navbar{
+       margin-left: 5px;
+       /*margin-top: 10px;*/
+       background-color: #f3f3f3 ;
+       border-radius: 8px;
+       color:  #170f22;
+       font-family: "Libre Baskerville", serif;
+       /*height: 30px;*/
+   }
+   .navbar-custom .navbar-nav .nav-link {
+    color: beige;
+    margin-right: 3em;
+    margin-top: 5px;
+    font-size: 1.1em;
+    margin-left: 0;
+   }
+   .navbar-custom .navbar-brand,
+   .navbar-custom .navbar-text {
+    color: white;
+    font-size: 1.8em;
+    margin-right: 5em;
+    margin-left: 0;
+    padding-left: 0;
+    float: left;
+   }

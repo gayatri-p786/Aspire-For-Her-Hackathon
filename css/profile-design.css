@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+    background-image: url("../images/login_back.jpeg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    font-family: "Libre Baskerville", serif;
+    background-position: center;
+    background-size: cover;
+    
+   }
+
+   .buttons{
+       background-color: #FFDEE9;
+       border-radius: 8px;
+   }
+   

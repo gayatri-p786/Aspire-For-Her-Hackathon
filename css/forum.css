@@ -1,0 +1,67 @@
+#bod {
+    /* background-color: #f7f7f7; */
+    background-image: url('https://images.pexels.com/photos/5331196/pexels-photo-5331196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#trend {
+    padding-top: 1px !important;
+    padding-bottom: 0%;
+}
+
+#tab ul li {
+    display: inline !important;
+}
+
+#tablebody {
+    background-color: #f7f7f7;
+}
+
+#button1 {
+    background-color: bisque;
+    color: black;
+    border: 1px solid bisque;
+    border-radius: 10px;
+    padding: 0.7px 5px;
+}
+
+.forum-col {
+    min-width: 16em;
+}
+
+.last-post-col {
+    min-width: 12em;
+}
+
+#stats {
+    margin-top: 15px;
+}
+
+.forum-col {
+    min-width: 16em;
+}
+
+.last-post-col {
+    min-width: 12em;
+}
+
+.topic-col {
+    min-width: 16em;
+}
+
+.created-col {
+    min-width: 12em;
+}
+
+#authcol {
+    width:20% !important;
+}
+
+.author-col {
+    min-width: 12em;
+}
+
+.post-col {
+    min-width: 20em;
+}

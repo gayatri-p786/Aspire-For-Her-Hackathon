@@ -1,0 +1,24 @@
+/*header h1{
+    /*color: #6a6a6bfc
+    color: #180c5f
+}*/
+.badge-primary{
+    color: #fff;
+    background-color: #ffb13aeb;
+}
+.hover-effect{
+    color:rgb(17, 8, 66);
+    text-decoration-thickness: 5px;
+}
+.hover-effect-btn{
+    color:rgb(241, 238, 233);
+    background-color: #0b1753;
+}
+.hover-effect-btn:hover{
+    color:rgb(14, 13, 12);
+    background-color: #c6c8d6;
+    
+}
+.card-title{
+    color: #180c5f
+}

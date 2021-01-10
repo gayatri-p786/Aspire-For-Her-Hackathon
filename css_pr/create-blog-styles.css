@@ -1,0 +1,18 @@
+.hover-effect-btn{
+    color:rgb(241, 238, 233);
+    background-color: #0b1753;
+}
+.hover-effect-btn:hover{
+    color:rgb(14, 13, 12);
+    background-color: #c6c8d6;
+    
+}
+#red-hov:hover{
+    color:rgb(14, 13, 12);
+    background-color: #c6c8d6;
+}
+body{
+    
+    background-image: url("https://images.pexels.com/photos/1054222/pexels-photo-1054222.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-size: cover;
+}
