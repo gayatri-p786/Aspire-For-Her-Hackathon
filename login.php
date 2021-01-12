@@ -43,7 +43,7 @@
         <title>Login</title>
     </head>
 
-    <body>
+    <body style="background-image: url('https://images.pexels.com/photos/1906440/pexels-photo-1906440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
 <div id="bod">
         <?php include_once('header_without_log.php');?>
     <div class="container my-3 my-sm-5 prodiv" style="background-color: #ffffff;opacity: 0.8;
@@ -68,7 +68,7 @@
                     <div class="col-12 col-sm-6" style="margin: 0 auto;">
                         <div class="form-group">
                           <label for="lastname">Password*</label>
-                          <input type="text" class="form-control" id="pswd" name="pswd" required>
+                          <input type="pswd" class="form-control" id="pswd" name="pswd" required>
                         </div>
                     </div>
                 </div>

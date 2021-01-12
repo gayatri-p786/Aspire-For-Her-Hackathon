@@ -19,9 +19,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/forum.css">
-    <link rel="stylesheet" href="css/navbar-styles.css">
+    <link rel="stylesheet" href="css_pr/navbar-styles.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css_pr/footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
     <title>Forum - Create New Topic</title>
@@ -51,6 +52,7 @@
                            $sql4 = "SELECT DISTINCT forum_topics, table_name FROM forums WHERE forum_names = '".$forum_name."'";                               
                             $stmt4 = $pdo->prepare($sql4);
                             $stmt4->execute();
+                            $last;
                            while ( $row4 = $stmt4->fetch(PDO::FETCH_ASSOC) ){?>
                             <tr>
                                 <td>
@@ -76,23 +78,21 @@
                                 while($row3 = $stmt3->fetch(PDO::FETCH_ASSOC)){
                                 echo'<td>
                                     <div>by <p>'.$row3['comm_author'].'</p></div>
-                                    <div><p>'.$row3['post_time'].'</p></div>
-                                </td>
+                                    <div><p>'.$row3['post_time'].'</p></div>';
+                               echo' </td>
                            </tr>';
-                                
-                                }} ?>
+                                $last = $row4['forum_topics'];
+                                }} 
+                                $last_top = $last;?>
                         </tbody>
                     </table>
                 </div>
                 <div class="mb-3 clearfix">
-                <nav aria-label="Navigate post pages" class="float-lg-right">
+                    <nav aria-label="Navigate post pages" class="float-lg-right" style="margin: 0 40px;">
                     <ul class="pagination pagination-sm mb-lg-0">
                         <li class="page-item active"><a href="#" class="page-link">1 <span
                                     class="sr-only">(current)</span></a></li>
                         <li class="page-item"><a href="#" class="page-link">2</a></li>
-                        <li class="page-item"><a href="#" class="page-link">3</a></li>
-                        <li class="page-item"><a href="#" class="page-link">4</a></li>
-                        <li class="page-item"><a href="#" class="page-link">5</a></li>
                         <li class="page-item"><a href="#" class="page-link">&hellip; 15</a></li>
                         <li class="page-item"><a href="#" class="page-link">Next</a></li>
                     </ul>
@@ -130,7 +130,9 @@
                     <button type="submit" class="btn btn-sm btn-primary">Go</button>
                 </form>
             </div>
-                <a href="forum_create.php?" class="btn btn-lg btn-primary">New Topic</a>
+                <div>
+                <a href="forum_create.php?forum_top=<?php echo $last_top;?>" class="btn btn-lg btn-primary">New Topic</a>
+            </div>
             </div>
 
     </div>

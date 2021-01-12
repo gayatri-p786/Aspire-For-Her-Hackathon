@@ -3,7 +3,6 @@
     session_start();
     if (!isset($_SESSION['account'])) {
         header('Location: login.php');
-        return;
     }
     $topic_sum=0;
     $post_sum=0;
@@ -31,6 +30,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/navbar-styles.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css_pr/footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
    

@@ -152,14 +152,14 @@ session_start();
                 <div class="col-sm-6">
                     <img src="https://miro.medium.com/max/840/1*wWEYVGeX6N5tPG13jEGseQ.jpeg" alt=""
                         class="img-responsive">
-                    <h3 class="text-center"><a href="blog-post-text.html">Blog Post: WOMEN IN ESPIONAGE</a></h3>
+                    <h3 class="text-center"><a href="blog_grid_display.php">Blog Post: WOMEN IN ESPIONAGE</a></h3>
                     <p>"The first female spies that we know of, were those who served Britain during World War I..."</p>
                 </div>
 
                 <div class="col-sm-6">
                     <img src="https://i.hurimg.com/i/hdn/75/0x0/5da425cc0f25441cf4279f1d.jpg" alt=""
                         class="img-responsive">
-                    <h3 class="text-center"><a href="forum-topics.html">Forum Topic: TECHNOLOGY</a></h3>
+                    <h3 class="text-center"><a href="front-forum.php">Forum Topic: TECHNOLOGY</a></h3>
                     <p>Blockchain technology, Latest technological trends, Boom of Cyber-Security </p>
                 </div>
             </div>

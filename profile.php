@@ -81,7 +81,6 @@
     </head>
 
     <body>
-
         <div class="container my-3 my-sm-5">
             <header>
                 <h1>Profile</h1>

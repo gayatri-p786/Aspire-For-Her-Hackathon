@@ -3,8 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/xampp/htdocs/AspireforHer/blog_create.php</file>
-            <file>file:/D:/xampp/htdocs/AspireforHer/blog_grid_display.php</file>
+            <file>file:/D:/xampp/htdocs/AspireforHer/topic.php</file>
+            <file>file:/D:/xampp/htdocs/AspireforHer/signup.php</file>
+            <file>file:/D:/xampp/htdocs/AspireforHer/single_blog_display.php</file>
+            <file>file:/D:/xampp/htdocs/AspireforHer/forum_name.php</file>
+            <file>file:/D:/xampp/htdocs/AspireforHer/profile.php</file>
+            <file>file:/D:/xampp/htdocs/AspireforHer/login.php</file>
+            <file>file:/D:/xampp/htdocs/AspireforHer/forum_create.php</file>
+            <file>file:/D:/xampp/htdocs/AspireforHer/header_with_log.php</file>
+            <file>file:/D:/xampp/htdocs/AspireforHer/css/profile-design.css</file>
+            <file>file:/D:/xampp/htdocs/AspireforHer/front-forum.php</file>
+            <file>file:/D:/xampp/htdocs/AspireforHer/index.php</file>
         </group>
     </open-files>
 </project-private>
